@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* border: solid red; */
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(../img/fondotrabajo.jpg);
+}
+
+.menu {
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    width: 90px;
+    border-radius: 3px;
+}
+
+header {
+    margin: 5px;
+    padding: 100px;
+    color: yellow;
+    height: 20%;
+    text-align: left;
+    font-size: 30px;
+    background-size: 100%;
+    background-image: url(../img/tools.jpg);
+    background-position: center
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.imagen-productos{
+    width: 20%;
+}
+
+.descripcion-producto{
+    color: #fff;
+    font-size: 25px;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    background-color: black;
+}
